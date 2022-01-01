@@ -5,9 +5,12 @@ Simpel calender view built with UICollectionView. </br>
 Just clone it and modify to your needs
 
 ## Usage
-Add Calender view to your view.
-You can use closure to get the selected date </br>
-   <img src="./Images/3.png" width="500">
+```
+calenderView = CalenderView()
+calenderView.didSelectDate = { [weak self] selectedDate in 
+   // Do something with the selected date
+}
+```
 
 ## Screenshot
    <img src="./Images/2.png" width="250">
